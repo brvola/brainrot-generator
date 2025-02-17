@@ -26,8 +26,8 @@ Video Creation Tool is a Dockerized command-line Python application that helps y
 1. **Clone the Repository**
 
    ```bash
-   git clone <repository_url>
-   cd <repository_directory>
+   git clone [<repository_url>](https://github.com/brvola/brainrot-generator.git)
+   cd brainrot-generator
    ```
 
 2. **Set Up Environment Variables**
