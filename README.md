@@ -46,7 +46,7 @@ Video Creation Tool is a Dockerized command-line Python application that helps y
    You can build the Docker image and start the container with:
 
    ```bash
-   docker-compose up --build
+   docker-compose --build
    ```
 
    Alternatively, if you prefer to run a one-off command without starting a persistent container, use:
