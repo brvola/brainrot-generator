@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  brainrot-creator:
+    build: .
+    volumes:
+      - .:/app
+      - ./content:/app/content
+      - ./videos:/app/videos
+      - ./fonts:/app/fonts
+    env_file:
+      - .env 

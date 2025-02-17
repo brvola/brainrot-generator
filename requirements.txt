@@ -1,0 +1,12 @@
+moviepy==1.0.3
+decorator==4.4.2
+imageio==2.31.1
+imageio-ffmpeg==0.4.8
+numpy==1.24.3
+openai==1.54.3
+python-dotenv==1.0.0
+requests==2.31.0
+whisper-timestamped==1.15.6
+Pillow==10.0.0
+tqdm==4.65.0
+httpx==0.27.2

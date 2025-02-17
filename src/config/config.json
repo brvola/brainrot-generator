@@ -1,0 +1,51 @@
+{
+  "base_content_path": "content",
+  "videos_dir": "videos",
+  "fonts": {
+    "general": "fonts/PassionOne-Bold.ttf",
+    "title": "fonts/PassionOne-Bold.ttf"
+  },
+  "video_settings": {
+    "height": 900,
+    "title_duration": 10,
+    "title_fontsize": 120,
+    "title_position": ["center", 250]
+  },
+  "text_clip_settings": {
+    "fontsize": 120,
+    "color": "white",
+    "font": "fonts/PassionOne-Bold.ttf",
+    "stroke_color": "black",
+    "stroke_width": 8,
+    "crossfade_duration": 0.035
+  },
+  "audio_settings": {
+    "provider": "openai",
+    "openai": {
+        "model": "tts-1-hd",
+        "voice": "onyx"
+    },
+    "elevenlabs": {
+        "model_id": "pNInz6obpgDQGcFmaJgB",
+        "model": "eleven_monolingual_v1",
+        "voice_settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.5
+        }
+    }
+  },
+  "openai_settings": {
+    "script_model": "gpt-4o"
+  },
+  "whisper_settings": {
+    "model": "base",
+    "device": "cpu"
+  },
+  "fallbacks": {
+    "max_text_clip_duration": 5,
+    "min_text_clip_duration": 0.1,
+    "buffer_duration": 0.1,
+    "max_title_width_chars": 17,
+    "system_prompt": "Create an engaging script for a story optimized for TikTok content, expanding on the input. The script should be clear and conversational for text-to-speech conversion. Stay true to the source content and keep a redditor's tone without extra embellishments. Don't use any emojis or special characters, just use plain text as if it were going to be read out loud. Also don't use cringey phrases like 'here's the deal' or 'here's the kicker'"
+  }
+} 
