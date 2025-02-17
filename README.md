@@ -108,6 +108,13 @@ All configuration settings are defined in `src/config/config.json`. This file in
 
 Feel free to modify these settings to suit your specific needs.
 
+## Background Videos
+
+Place your background video files in a `/videos` directory at the root of the project. It is recommended to use videos with aspect ratios suited for YouTube Shorts or TikTok (vertical format), as other sizes have not been tested. 
+
+**Note:**  
+If there are no background videos long enough to support the generated audio, the tool will display an error.
+
 ## Workflow Overview
 
 1. **Script Generation:**  
