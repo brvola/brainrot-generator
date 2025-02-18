@@ -46,7 +46,7 @@ Video Creation Tool is a Dockerized command-line Python application that helps y
    You can build the Docker image and start the container with:
 
    ```bash
-   docker-compose --build
+   docker-compose build
    ```
 
    Alternatively, if you prefer to run a one-off command without starting a persistent container, use:
@@ -71,7 +71,7 @@ The **generate** command executes the complete workflow:
 **Example Command:**
 
 ```bash
-docker-compose run --rm brainrot-creator generate --video_title "My Video Title" --user_input "Your input text here"
+docker-compose run --rm brainrot-creator python src/main.py generate --video_title "My Video Title" --user_input "Your input text here"
 ```
 
 *Optional:*  
@@ -84,7 +84,7 @@ The **transcript** command creates a video using an existing audio file by gener
 **Example Command:**
 
 ```bash
-docker-compose run --rm brainrot-creator transcript --video_title "My Video Title" --audio_path "path/to/audio.mp3"
+docker-compose run --rm brainrot-creator python src/main.py transcript --video_title "My Video Title" --audio_path "path/to/audio.mp3"
 ```
 
 ## Configuration
